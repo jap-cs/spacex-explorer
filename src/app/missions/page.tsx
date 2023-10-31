@@ -12,5 +12,10 @@ export default async function RocketsPage() {
     const missionSummaries = await getAllMissions();
     const missionItems = missionSummaries.map((missionSummary: MissionSummary, index: number) => (<MissionSummaryItem key={index} mission={missionSummary} />));
 
-    return <ul>{missionItems}</ul>;
+    return (
+        <>
+            <h1>Missions</h1>
+            <ul>{missionItems}</ul>
+        </>
+    );
 }
