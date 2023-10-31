@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function RocketLayout({children}: {children: React.ReactNode}) {
     return <div>
-        <Link href="/">Home</Link>
+        <Link href="/">Home</Link> / <Link href="/rockets">Rockets</Link>
         {children}
     </div>
 }

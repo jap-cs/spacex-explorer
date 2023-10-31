@@ -6,6 +6,7 @@ export default function Home() {
       <h1 className="h1">Welcome to SpaceX Explorer</h1>
       <div>
         <p>You can start by viewing details of the different SpaceX <Link href="/rockets">rockets</Link>.</p>
+        <p>Or check out the various SpaceX <Link href="/missions">missions</Link>.</p>
       </div>
     </main>
   )
