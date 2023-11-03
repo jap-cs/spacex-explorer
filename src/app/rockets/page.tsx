@@ -23,7 +23,7 @@ export default async function RocketsPage({ searchParams }: { searchParams: { na
 
     return (
         <>
-            <h1>Rockets</h1>
+            <h1>Rockets2</h1>
             <SearchBar />
             <ul>{rocketItems}</ul>
         </>
